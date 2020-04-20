@@ -1,4 +1,4 @@
-baseURL = "http://example.org/python"
+baseURL = "http://example.org/"
 languageCode = "zh-uCN"
 title = "Claymore 的笔记"
 theme = 'book'
