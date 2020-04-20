@@ -1,0 +1,26 @@
+baseURL = "http://example.org/python"
+languageCode = "zh-uCN"
+title = "Claymore 的笔记"
+theme = 'book'
+
+
+disablePathToLower=true
+
+# 在左侧菜单前后出现的类别
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/alex-shpak/hugo-book"
+  weight = 10
+
+# 右侧markdown渲染标题支持的等级
+[markup.tableOfContents]
+  startLevel = 1
+  endLevel = 6
+
+[params]
+  BookMenuBundle="/menu"
+  BookToC = true
+  BookSection = '02__Python'
+
